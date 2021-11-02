@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2px;
+    padding: 0;
+}
+
+.headercabecera{
+    background-color: rgb(66, 65, 65);
+}
+
+.FlexContainerFila{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Columna{
+    flex: 25%;
+    padding: 3px;
+}
+
+.Columna img{
+    margin-top: 3px;
+    width: 100%;
+}
+
+
+@media (max-width: 800px){
+    
+    .Columna{
+    flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    
+    .Columna{
+    flex: 100%;
+    }
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../ext/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylecontacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:ital@1&family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href="../img/icons/css/fontello.css">
+</head>
+
+<body>
+   
+    <div class="padreflexbox">
+
+        <header class="headercabecera">
+
+            <div  class="menu">
+
+                <div class="logo">
+                    <h1>Doquier</h1>
+                    <h2>Exclusive Leather Bags Handmade in Buenos Aires</h2> 
+                </div>
+
+                <nav class="navbarranavegadora">
+                    <ul>
+                    <li><a href="../index.html"> HOME </a></li>
+                    <li><a href="../pages/nosotros.html"> NOSOTROS </a></li>
+                    <li><a href="../pages/campanas.html"> CAMPAÑAS </a></li>
+                    <li><a> CONTACTO </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+
+        <section class="mb-4">
+
+            <h2 class="h1-responsive font-weight-bold text-center my-4">¡Contactanos!</h2>
+
+            <p class="text-center w-responsive mx-auto mb-5">No dudes en escribirnos, te responderemos a la brevedad 
+                para asistirte en lo que necesites.</p>
+
+            <div class="row">
+
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Nombre</label>
+                                </div>
+                            </div>
+                            
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">E-mail</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Asunto</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="validateForm();">Enviar</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>Tel: (5411)6752-7019</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>info@casadoquier.com</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+        
+
+    <footer>
+        
+        <section class="footerPrincipal">
+
+            <div class="columnas">
+                <p id="doquier">DOQUIER</p>
+                <div class="loguito">
+                <p>Arenales 1321, Recoleta</p>
+                <p>Buenos Aires</p>
+                <p>Argentina</p>
+                </div>
+              </div>
+          
+        
+          <div class="columnas">
+            <h2 class="titulo">¡Enterate de todo!</h2>
+            <p>Suscribite para recibir todas nuestras novedades</p>
+            <form>
+              <input type="email" name="email" placeholder="Tu email">
+              <input type="submit" value="Enviar">
+            </form>
+          </div>
+        </section>
+      
+        <!----->
+        
+        <section class="footerRedes">
+
+          <ul class="listaRedes">
+            <li><a href="#"> <i style="color: rgb(241, 111, 64);" class="icon-facebook-circled"></i></a></li>
+            <li><a href="#"> <i style="color: rgb(241, 111, 64);" class="icon-instagram-1"></i></a></li>
+            <li><a href="#"> <i style="color: rgb(241, 111, 64);" class="icon-youtube-play"></i></a></li>
+            <li><a href="#"> <i style="color: rgb(241, 111, 64);" class="icon-twitter"></i></a></li>
+          </ul>
+          
+        </section>
+      
+        <!---->
+
+        <section class="legales">
+
+          <ul class="legalesLista">
+            <li><a href="#">Términos &amp; Condiciones</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li>&copy; 2021 Copyright Casa Doquier</li>
+          </ul>
+          
+        </section>
+      </footer>
+
+
+
+    <script src="../ext/js/bootstrap.min.js"></script>
+    <script src="../ext/js/validar.js"></script>
+    
+
+</body>
+</html>
+
+
+
+
+
+    
+   
+    

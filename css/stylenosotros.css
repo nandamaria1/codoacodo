@@ -1,0 +1,24 @@
+body{
+        background-color:rgb(216, 215, 215);
+        margin:0px;
+        padding:0px;
+        border:0px;
+}
+
+.nosotros{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align:center;
+    line-height: 1.8em;
+    height:600px;
+    margin: 5% 5% 0% 5%;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 0.5px;
+    height: auto;
+}
+
+.headercabecera{
+    background-color: white;
+}
+
+

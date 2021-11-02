@@ -1,0 +1,190 @@
+.botonefecto1{
+
+    width:190px;
+    padding:20px;
+    background-color: transparent;
+    border: 1.5px solid transparent;
+    color: orangered;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botonefecto1:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-top: 1.5px solid orangered;
+    border-left: 1.5px solid orangered;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: all 0.2s; /*Aplico transición*/
+}
+
+.botonefecto1:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-bottom: 1.5px solid orangered;
+    border-right: 1.5px solid orangered;
+    position: absolute;
+    left: -1;
+    right: 0;
+    bottom: 0;
+    top: -1;
+    transition: all 0.2s; /*Aplico transición*/
+    }
+
+.botonefecto1:hover:after{
+    width: 201px;
+    height: 70px;
+}
+
+.botonefecto1:hover:before{
+    width: 201px;
+    height: 70px;
+}
+
+.botonefecto1 a{
+    text-decoration:none;
+    color: orangered;
+}
+
+.botonefecto1 a:visited{
+    color: orangered;
+}
+
+/*--------------------------------------*/    
+
+.botonefecto2{
+
+    width:190px;
+    padding:20px;
+    background-color: transparent;
+    border: 1.5px solid transparent;
+    color: yellow;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+        
+.botonefecto2:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-top: 1.5px solid yellow;
+    border-left: 1.5px solid yellow;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: all 0.2s; /*Aplico transición*/
+    }
+        
+.botonefecto2:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-bottom: 1.5px solid yellow;
+    border-right: 1.5px solid yellow;
+    position: absolute;
+    left: -1;
+    right: 0;
+    bottom: 0;
+    top: -1;
+    transition: all 0.2s; /*Aplico transición*/
+    }
+        
+    .botonefecto2:hover:after{
+        width: 201px;
+        height: 70px;
+    }
+        
+    .botonefecto2:hover:before{
+        width: 201px;
+        height: 70px;
+    }
+
+    .botonefecto2 a{
+        text-decoration:none;
+        color: yellow;
+    }
+
+    .botonefecto2 a:visited{
+        color: yellow;
+    }
+
+/*--------------------------------------*/  
+
+.botonefecto3{
+
+    width:190px;
+    padding:20px;
+    background-color: transparent;
+    border: 1.5px solid transparent;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+    }
+                
+.botonefecto3:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-top: 1.5px solid white;
+    border-left: 1.5px solid white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: all 0.2s; /*Aplico transición*/
+    }
+                
+.botonefecto3:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-bottom: 1.5px solid white;
+    border-right: 1.5px solid white;
+    position: absolute;
+    left: -1;
+    right: 0;
+    bottom: 0;
+    top: -1;
+    transition: all 0.2s; /*Aplico transición*/
+    }
+                
+.botonefecto3:hover:after{
+    width: 201px;
+    height: 70px;
+    }
+                
+.botonefecto3:hover:before{
+    width: 201px;
+    height: 70px;
+    }
+
+.botonefecto3 a{
+    text-decoration:none;
+    color: white;
+    }
+
+.botonefecto3 a:visited{
+    color: white;
+    }
+                                 
